@@ -75,6 +75,7 @@
                             { PACKETBUF_ATTR_TTL,         PACKETBUF_ATTR_BIT * 4 }, \
                             { PACKETBUF_ATTR_HOPS,        PACKETBUF_ATTR_BIT * 4 }, \
                             { PACKETBUF_ATTR_MAX_REXMIT,  PACKETBUF_ATTR_BIT * 5 }, \
+                            { PACKETBUF_ATTR_NUM_REXMIT, PACKETBUF_ATTR_BIT * 5},\
                             { PACKETBUF_ATTR_PACKET_TYPE, PACKETBUF_ATTR_BIT }, \
                             UNICAST_ATTRIBUTES
 
